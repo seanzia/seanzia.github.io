@@ -1,0 +1,80 @@
+@import "fonts.css"; 
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'lgc', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+button {
+  font-family: 'lgcb', sans-serif;
+}
+
+/*Font*/
+.source-code-font {
+	font-family: 'Source Code Pro', monospace;  
+}
+.blueprint-font {
+	font-family: blueprint, monospace;
+}
+.blueprint-font-style {
+	text-shadow: 6px 6px #ddd;
+	color: #222;
+}
+/*UIKit*/
+.uk-tooltip {
+	background-color: #f8fafb;
+	color: #000;
+	font-weight: 500;
+}
+.uk-rc-img {
+	border-radius: 12px !important;
+	transition: all 0.2s ease;
+}
+.uk-rc-img:hover { transform: scale(1.05) !important; }
+.uk-lightbox-items>*>:not(iframe) {
+	padding: 40px 0 !important;
+}
+.uk-padding-large { padding: 110px 70px !important; }
+.uk-button { border-radius: 8px !important; }
+.uk-item-highlight {
+	float: right;
+    background: black;
+    padding: 5px 10px;
+    border-radius: 7px;
+    color: white;
+}
+
+/*Hover*/
+.hvr-bounce-to-right:before {
+	color: #fff!important;
+	background: #ff5891!important;
+	clip-path: polygon(
+		0 0,
+		90% 0,
+		110% 100%,
+		0 100%
+	);
+}
+.hvr-bounce-to-right:hover,
+.hvr-bounce-to-right:focus {
+	color: #fff!important;
+}
+/*Div Cuts*/
+.cut-01 {
+	background: #000;
+	border-radius: 20px;
+}
+.cut-02 {
+	background: #2254ff;
+	border-radius: 20px;
+}
+.cut-03 {
+	background: #efefef;
+	border-radius: 20px;
+}
