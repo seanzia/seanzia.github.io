@@ -27,10 +27,13 @@ button {
 	color: #222;
 }
 
-.uk-button-primary { background: #2254ff;border: 3px solid #2254ff; }
+.uk-button-default { background: #FFF;color: #000;border: 2px solid #FFF; }
+.uk-button-default:hover { background: #000 !important;color: #FFF !important;border-color: #000 !important; }
+
+.uk-button-primary { background: #2254ff;border: 2px solid #2254ff; }
 .uk-button-primary:hover { background: #000 !important;border-color: #000 !important; }
 
-.uk-button-secondary { background: #FFF;color: #000;border: 3px solid #000; }
+.uk-button-secondary { background: #FFF;color: #000;border: 2px solid #000; }
 .uk-button-secondary:hover { background: #000 !important;color: #FFF !important; }
 
 /*UIKit*/
