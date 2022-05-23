@@ -26,6 +26,13 @@ button {
 	text-shadow: 6px 6px #ddd;
 	color: #222;
 }
+
+.uk-button-primary { background: #2254ff;border: 3px solid #2254ff; }
+.uk-button-primary:hover { background: #000 !important;border-color: #000 !important; }
+
+.uk-button-secondary { background: #FFF;color: #000;border: 3px solid #000; }
+.uk-button-secondary:hover { background: #000 !important;color: #FFF !important; }
+
 /*UIKit*/
 .uk-tooltip {
 	background-color: #f8fafb;
@@ -67,7 +74,7 @@ button {
 }
 /*Div Cuts*/
 .cut-01 {
-	background: #000;
+	background: #2254ff;
 	border-radius: 20px;
 }
 .cut-02 {

@@ -43,7 +43,7 @@
             <nav class="uk-container-large uk-align-center uk-navbar-container uk-navbar-transparent" uk-navbar>
                <div class="uk-navbar-left">
                    <ul class="uk-navbar-nav uk-visible@s">
-                       <li class="uk-active"><a uk-scroll class="uk-text-capitalize" href="/"><b>Sean Zia</b></a></li>
+                       <li class="uk-active"><a class="uk-text-capitalize" href="/"><b>Sean Zia</b></a></li>
                        <li><a uk-scroll href="#active_projects" class="uk-text-capitalize">Active Projects</a></li>
                        <li><a uk-scroll href="#past_projects" class="uk-text-capitalize">Past Projects</a></li>
                        <li><a uk-scroll href="#skills" class="uk-text-capitalize">Skills</a></li>
@@ -55,19 +55,22 @@
                </div>
             </nav>
          </div>
-         <div class="uk-container uk-margin-small uk-padding-medium uk-container-large cut-01 uk-box-shadow-medium" style="background-image: url(''); background-size: cover;">
-            <div id="ilqj-2" class="uk-padding-large uk-flex uk-flex-center">
-               <div id="im06m-2" class="uk-flex uk-flex-middle uk-text-center">
-                  <div class="uk-padding-small">
-                     <h1 class="uk-margin-remove source-code-font" style="color: #FFF;">👋, I'm Sean</h1>
-                     <br/>
-                     <h4 class="uk-margin-remove source-code-font" style="color: #FFF;">I've worked on quite a few Web and Mobile projects over the last few years. Currently, I'm familiarizing myself with the Ethereum blockchain and Smart Contracts as a way of creating decentralized applications.</h4>
-                  </div>
-               </div>
+
+         <div id="past_projects" class="uk-container uk-margin-small uk-padding-large uk-container-large cut-03" style="margin-top: 40px !important;">
+            <div class="uk-text-center">
+               <h1 class="uk-margin-remove source-code-font">👋</h1>
+               <br/>
+               <h3 class="uk-margin-remove source-code-font">I'm Sean</h3>
+               <br/>
+               <h4 class="uk-margin-remove source-code-font">I've worked on quite a few Web and Mobile projects in Node, React, PHP, JavaScript, and SQL. Currently, I'm familiarizing myself with the Ethereum blockchain and Smart Contracts as a way of developing decentralized applications.</h4>
+               <br/><br/>
+               <a class="uk-button uk-button-primary" target="_blank" href="https://www.pixelhold.com/">LinkedIn</a>
+               <a class="uk-button uk-button-secondary" target="_blank" href="https://www.seanzia.com/">Blog</a>
             </div>
          </div>
+
          <div id="active_projects" class="uk-container uk-margin-small uk-padding-large uk-container-large">
-            <div class="uk-text-left">
+            <div class="uk-text-center">
                <h5 class="uk-margin-remove">
                   01. Active Projects
                </h5>
@@ -76,21 +79,25 @@
             <div id="i49l79" class="uk-grid uk-child-width-1-1 uk-child-width-1-2@s" uk-height-match>
                <div class="active-projects">
                   <div class="uk-padding-small uk-text-left">
-                     <h2 class="uk-margin-remove">Etheract.io <span class="uk-text-small uk-item-highlight">Ethereum & Web3</span></h2>
-                     <p>
+                     <h2 class="uk-margin-remove uk-text-center">Etheract.io<br/><span class="uk-text-small" style="display: block;">Ethereum & Web3</span></h2>
+                     <p class="uk-width-xlarge@l uk-align-center uk-text-center uk-clearfix">
                         Etheract gives developers a start-to-end solution to deploy Smart Contracts onto the Ethereum Blockchain. Whether it's an NFT collection or a complex protocol, we deploy Smart Contracts at a fixed price and eliminate the risks associated with the constantly changing Gas Fees and deployment failures.
                      </p>
-                     <a class="uk-button uk-button-primary" target="_blank" href="https://www.etheract.io/">Visit Project</a>
+                     <p class="uk-width-xlarge@l uk-align-center uk-text-center uk-clearfix">
+                        <a class="uk-button uk-button-primary" target="_blank" href="https://www.etheract.io/">Visit Project</a>
+                     </p>
                   </div>
                </div>
                <div class="active-projects">
                   <div class="uk-padding-small uk-text-left">
-                    <h2 class="uk-margin-remove">PixelHold <span class="uk-text-small uk-item-highlight">Ethereum & Web3</span></h2>
-                     <p>
+                    <h2 class="uk-margin-remove uk-text-center">PixelHold<br/><span class="uk-text-small" style="display: block;">Ethereum & Web3</span></h2>
+                     <p class="uk-width-xlarge@l uk-align-center uk-text-center uk-clearfix">
                         PixelHold is an NFT collection that lets users purchase an avatar in stages (e.g., whitelist, pre-sale, and public sale). PixelHold was deployed to learn the fundamentals of an NFT smart contract and develop an edge in Gas optimization and Blockchain deployments.
                      </p>
-                     <a class="uk-button uk-button-primary" target="_blank" href="https://www.pixelhold.com/">Visit Project</a>
-                     <a class="uk-button uk-button-secondary" target="_blank" href="https://etherscan.io/address/0xaa961cd70794e90abe23e54b0772e27fcb5fb32c">Etherscan</a>
+                     <p class="uk-width-xlarge@l uk-align-center uk-text-center uk-clearfix">
+                        <a class="uk-button uk-button-primary" target="_blank" href="https://www.pixelhold.com/">Visit Project</a>
+                        <a class="uk-button uk-button-secondary" target="_blank" href="https://etherscan.io/address/0xaa961cd70794e90abe23e54b0772e27fcb5fb32c">Etherscan</a>
+                     </p>
                   </div>
                </div>
             </div>
@@ -222,12 +229,14 @@
                      <div class="uk-padding-small uk-text-left">
                         <h3>RedPine <span class="uk-text-small uk-item-highlight">Web</span></h3>
                         <p>RedPine was a platform that allowed small musicians to find venues throughout Toronto and crowdfund concerts with their fanbase. At its peak, we were processing 10 shows a month at more than 50 different venue partners.</p>
+                        <p><b>Tech Stack:</b> React, JavaScript, MySQL, Python, Django</p>
                      </div>
                   </div>
                   <div class="uk-card uk-card-body uk-padding-remove">
                      <div class="uk-padding-small uk-text-left">
                         <h3>AShopApp <span class="uk-text-small uk-item-highlight">Android</span></h3>
                         <p>AShopApp let users scan the barcode of a retail product from H&M, Zara, and Forever21 to discover similar products from other stores near them.</p>
+                        <p><b>Tech Stack:</b> Android (Java), PHP (Codeigniter), JavaScript, MySQL, Cron Jobs</p>
                      </div>
                   </div>
                   <!--<div class="uk-text-left uk-padding-small">
@@ -248,13 +257,14 @@
                            <img class="uk-rc-img" src="./assets/images/ashopapp/android_5.png" width="64" >
                         </a>
                      </div>
-                  </div>-->
+                  </div>
                   <div class="uk-card uk-card-body uk-padding-remove">
                      <div class="uk-padding-small uk-text-left">
                         <h3>Lihter <span class="uk-text-small uk-item-highlight">Web</span></h3>
                         <p>Lihter was an online job portal that allowed recruiters and job seekers to quantify their knowledge. An internal algorithm was used to match job seekers with roles they would perform the best at.</p>
+                        <p><b>Tech Stack:</b> PHP (Codeigniter), MySQL</p>
                      </div>
-                  </div>
+                  </div>-->
                </div>
             </div>
          </div>
@@ -305,7 +315,7 @@
                <div class="uk-padding-small">
                   <div class="uk-flex uk-flex-middle uk-padding-medium uk-width-1-1 uk-flex-center">
                      <div class="uk-width-1-1 uk-text-left">
-                        <h5 class="uk-margin-remove">Mobile &amp; Development</h5>
+                        <h5 class="uk-margin-remove">Mobile Development</h5>
                         <ul class="uk-list uk-list-divider">
                             <li>Android Studio / Java</li>
                             <li><a href="https://expo.dev/" target="_blank">Expo.dev</a> - an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React</li>
@@ -326,9 +336,11 @@
                <div class="uk-padding-large">
                   <div class="uk-flex uk-flex-middle uk-padding-medium uk-width-1-1 uk-flex-center">
                      <div class="uk-padding-small uk-text-center">
-                        <h2 class="uk-width-1-1 uk-margin-remove-top" style="color: #FFF;">Machine &amp; Deep Learning</h2>
+                        <h2 class="uk-width-1-1 uk-margin-remove-top" style="color: #FFF;">Machine Learning & AI</h2>
                         <p class="uk-width-xlarge@l uk-align-center uk-clearfix" style="color: #FFF;">
-                           The world of AIs is complex, and rightfully so... but it's also crucial to the future. Newscoop was my first dive into the world of machine learning and even with such a simple use-case I was able to learn how such technology can change the way we interact with each other and consume information. We're at a stage where an average person is processing more information than any of our ancestors, and as the quantity of information grows, AIs will be the only scalable solution to help us in our everyday lives.
+                           Newscoop was my first dive into the world of machine learning and even with such a simple use-case I was able to learn how such technology can change the way we interact with each other and consume information. We're at a stage where an average person is processing more information than any other time in history, and as the quantity of information grows, AI will be the only scalable solution.
+                           <br/><br/>
+                           <b>No active projects</b>
                         </p>
                      </div>
                   </div>
@@ -338,8 +350,12 @@
                      <div class="uk-padding-small uk-text-center">
                         <h2 class="uk-width-1-1 uk-margin-remove-top" style="color: #FFF;">Blockchains</h2>
                         <p class="uk-width-xlarge@l uk-align-center uk-clearfix" style="color: #FFF;">
-                           The Web3 space is still in its infancy and I think there is a lot of room for growth. The most recent NFT space is a precursor to how Blockchains can revolutionize ownership of digital content. Industries that create digital content (e.g. publishers) are going to be the biggest winners.
+                           The Web3 space is still in its infancy and I think there is a lot of room for growth. The most recent NFT space is a precursor to how Blockchains can revolutionize ownership of digital content. Industries that create digital content (e.g. publishers) are going to be the biggest winners. Blockchains will boost trust and transparency in an increasingly digital world.
+                           <br/><br/>
+                           <b>Active projects</b>
                         </p>
+                        <a class="uk-button uk-button-primary" href="https://www.pixelhold.com/" target="_blank">PixelHold</a>
+                        <a class="uk-button uk-button-primary" href="https://www.etheract.io/" target="_blank">Etheract</a>
                      </div>
                   </div>
                </div>
